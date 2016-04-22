@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  MeiLiYiChu_zhaole
+//
+//  Created by 赵乐 on 16-3-12.
+//  Copyright (c) 2016年 ZL. All rights reserved.
+//
+
+#ifndef MeiLiYiChu_zhaole_PrefixHeader_pch
+#define MeiLiYiChu_zhaole_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define RGB(a,b,c) [UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1.0]
+#define VIEWHEIGHT [[UIScreen mainScreen] bounds].size.height
+#define VIEWWIDTH  [[UIScreen mainScreen] bounds].size.width
+#endif
